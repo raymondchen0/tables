@@ -1,0 +1,23 @@
+.h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(132, 161, 255);
+}
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+table, th, td {
+    border: 1px outset rgb(153, 160, 236);
+    border-bottom: 1px solid rgb(2, 0, 112);
+    text-align: center;
+}
+th {
+    height: 60%
+}
+tr:hover {background-color: #f4f0ff;}
+
+tr:nth-child(odd) {background-color: #c9acff;}
+th {
+    background-color: rgb(233, 241, 121);
+    color: rgb(77, 77, 77);
